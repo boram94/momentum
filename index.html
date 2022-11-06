@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>나만의 동기부여 홈화면 만들기</title>
+
+    <script src="index.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .time {
+            font-size: 80px;
+            font-weight: bold;
+        }
+
+        .greeting {
+            font-size: 50px;
+        }
+
+        .todo {
+            font-size: 30px;
+        }
+
+        .author {
+            font-size: 25px;
+            font-style: italic;
+        }
+
+        .main {
+            width: 100vw;
+            height: 88vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .quote {
+            width: 100vw;
+            height: 20vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+        body {
+	background-image: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxOTEwMjFfOTIg%2FMDAxNTcxNjIzNDMwNTg5.Sr9FBFklE4ek2Ur-jKjYFUqtu3rEIBQTUDt4Chvkc5sg.UdNtYTMgQRPwtnKZVddVA2vc6wPKm4XMQ4xHQKjr0H8g.JPEG.yinet0709%2Fphoto-1520607725487-81e65ed08c8b.jpg&type=sc960_832ps://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20150715_77%2Ftr987987_14369306798863pCmT_JPEG%2F1918697.jpg&type=sc960_832");
+	background-position: center;
+    background-size: cover;
+
+    color: white;
+}
+    </style>
+
+    <script>
+    </script>
+</head>
+
+
+    <body>
+        <div class="main">
+            <div id="time" class="time">12:00</div>
+            <div class="greeting">Hello, Boram!</div>
+            <div class="todo">수면 아래 완독!</div>
+        </div>
+        <div class="quote">
+            <div id="author" class="author">- 명언의 저자 -</div>
+            <div id="content" class="content">" 명언의 내용 "</div>
+        </div>
+    </body>
+
+
+</html>
+
